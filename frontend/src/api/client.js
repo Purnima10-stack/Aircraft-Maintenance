@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://a2f2d45570a52425183817c226eecd52-1307694299.us-east-1.elb.amazonaws.com'.replace(/\/$/, '');
+const API_BASE_URL = 'http://a2f2d45570a52425183817c226eecd52-1307694299.us-east-1.elb.amazonaws.com';
 
 async function request(path, options = {}) {
   const url = `${API_BASE_URL}${path}`;
